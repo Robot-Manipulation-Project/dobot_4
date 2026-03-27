@@ -170,8 +170,6 @@ class JointPTPNode(Node):
                 return result
                 
             # 2. Monitor the differences between present and previous joint angles 
-            # Realistic scenario for failure: The robot arm is physically blocked by an obstacle
-            # or the motor is overloaded, stopping further movement but still trying to reach the goal.
             stuck_diff = [abs(p - prev) for p, prev in zip(feedback_msg.joint_present, previous_joints)]
             if all(d < stuck_threshold for d in stuck_diff):
                 self.get_logger().info("Action failed: Arm is stuck.")

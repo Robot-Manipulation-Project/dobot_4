@@ -16,6 +16,9 @@
 #include "dobot_interface/action/detail/joint_ptp__struct.h"
 #include "dobot_interface/action/detail/joint_ptp__functions.h"
 
+#include "rosidl_runtime_c/primitives_sequence.h"
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool dobot_interface__action__joint_ptp__goal__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -52,8 +55,23 @@ bool dobot_interface__action__joint_ptp__goal__convert_from_py(PyObject * _pymsg
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->joint_goal = PyFloat_AS_DOUBLE(field);
+    {
+      // TODO(dirk-thomas) use a better way to check the type before casting
+      assert(field->ob_type != NULL);
+      assert(field->ob_type->tp_name != NULL);
+      assert(strcmp(field->ob_type->tp_name, "numpy.ndarray") == 0);
+      PyArrayObject * seq_field = (PyArrayObject *)field;
+      Py_INCREF(seq_field);
+      assert(PyArray_NDIM(seq_field) == 1);
+      assert(PyArray_TYPE(seq_field) == NPY_FLOAT64);
+      Py_ssize_t size = 4;
+      double * dest = ros_message->joint_goal;
+      for (Py_ssize_t i = 0; i < size; ++i) {
+        double tmp = *(npy_float64 *)PyArray_GETPTR1(seq_field, i);
+        memcpy(&dest[i], &tmp, sizeof(double));
+      }
+      Py_DECREF(seq_field);
+    }
     Py_DECREF(field);
   }
 
@@ -80,14 +98,21 @@ PyObject * dobot_interface__action__joint_ptp__goal__convert_to_py(void * raw_ro
   dobot_interface__action__JointPTP_Goal * ros_message = (dobot_interface__action__JointPTP_Goal *)raw_ros_message;
   {  // joint_goal
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->joint_goal);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "joint_goal", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
+    field = PyObject_GetAttrString(_pymessage, "joint_goal");
+    if (!field) {
+      return NULL;
     }
+    assert(field->ob_type != NULL);
+    assert(field->ob_type->tp_name != NULL);
+    assert(strcmp(field->ob_type->tp_name, "numpy.ndarray") == 0);
+    PyArrayObject * seq_field = (PyArrayObject *)field;
+    assert(PyArray_NDIM(seq_field) == 1);
+    assert(PyArray_TYPE(seq_field) == NPY_FLOAT64);
+    assert(sizeof(npy_float64) == sizeof(double));
+    npy_float64 * dst = (npy_float64 *)PyArray_GETPTR1(seq_field, 0);
+    double * src = &(ros_message->joint_goal[0]);
+    memcpy(dst, src, 4 * sizeof(double));
+    Py_DECREF(field);
   }
 
   // ownership of _pymessage is transferred to the caller
@@ -200,6 +225,11 @@ PyObject * dobot_interface__action__joint_ptp__result__convert_to_py(void * raw_
 // already included above
 // #include "dobot_interface/action/detail/joint_ptp__functions.h"
 
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence.h"
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool dobot_interface__action__joint_ptp__feedback__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -236,8 +266,23 @@ bool dobot_interface__action__joint_ptp__feedback__convert_from_py(PyObject * _p
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->joint_present = PyFloat_AS_DOUBLE(field);
+    {
+      // TODO(dirk-thomas) use a better way to check the type before casting
+      assert(field->ob_type != NULL);
+      assert(field->ob_type->tp_name != NULL);
+      assert(strcmp(field->ob_type->tp_name, "numpy.ndarray") == 0);
+      PyArrayObject * seq_field = (PyArrayObject *)field;
+      Py_INCREF(seq_field);
+      assert(PyArray_NDIM(seq_field) == 1);
+      assert(PyArray_TYPE(seq_field) == NPY_FLOAT64);
+      Py_ssize_t size = 4;
+      double * dest = ros_message->joint_present;
+      for (Py_ssize_t i = 0; i < size; ++i) {
+        double tmp = *(npy_float64 *)PyArray_GETPTR1(seq_field, i);
+        memcpy(&dest[i], &tmp, sizeof(double));
+      }
+      Py_DECREF(seq_field);
+    }
     Py_DECREF(field);
   }
 
@@ -264,14 +309,21 @@ PyObject * dobot_interface__action__joint_ptp__feedback__convert_to_py(void * ra
   dobot_interface__action__JointPTP_Feedback * ros_message = (dobot_interface__action__JointPTP_Feedback *)raw_ros_message;
   {  // joint_present
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->joint_present);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "joint_present", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
+    field = PyObject_GetAttrString(_pymessage, "joint_present");
+    if (!field) {
+      return NULL;
     }
+    assert(field->ob_type != NULL);
+    assert(field->ob_type->tp_name != NULL);
+    assert(strcmp(field->ob_type->tp_name, "numpy.ndarray") == 0);
+    PyArrayObject * seq_field = (PyArrayObject *)field;
+    assert(PyArray_NDIM(seq_field) == 1);
+    assert(PyArray_TYPE(seq_field) == NPY_FLOAT64);
+    assert(sizeof(npy_float64) == sizeof(double));
+    npy_float64 * dst = (npy_float64 *)PyArray_GETPTR1(seq_field, 0);
+    double * src = &(ros_message->joint_present[0]);
+    memcpy(dst, src, 4 * sizeof(double));
+    Py_DECREF(field);
   }
 
   // ownership of _pymessage is transferred to the caller
@@ -541,8 +593,10 @@ PyObject * dobot_interface__action__joint_ptp__send_goal__response__convert_to_p
 // already included above
 // #include "dobot_interface/action/detail/joint_ptp__functions.h"
 
-#include "rosidl_runtime_c/primitives_sequence.h"
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence.h"
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 // Nested array functions includes
 
