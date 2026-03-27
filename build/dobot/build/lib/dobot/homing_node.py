@@ -19,19 +19,21 @@ class HomingService(Node):
 
     def __init__(self):
         super().__init__("homing_node")
+        self.dobot = None
         self.service = self.create_service(Trigger, "homing", self.service_callback)
-        self.dobot = DobotDriver()
         self.get_logger().info("Homing service server is ready.")
 
 
     def service_callback(self, request, response):
         try:
+            self.dobot = DobotDriver()
             self.get_logger().info("Starting homing procedure...")
             self.dobot.start_homing()
             response.success = True
             response.message = "Homing completed successfully"
             self.get_logger().info("Homing completed.")
         except Exception as e:
+            self.dobot = None
             response.success = False
             response.message = f"Homing failed: {str(e)}"
             self.get_logger().error(f"Homing error: {str(e)}")
