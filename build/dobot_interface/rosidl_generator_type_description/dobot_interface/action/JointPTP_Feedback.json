@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dobot_interface/action/JointPTP_Feedback",
+      "fields": [
+        {
+          "name": "joint_present",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dobot_interface/action/JointPTP_Feedback",
+      "hash_string": "RIHS01_bb31c73234296684d76eb08f537592051493e6bb641e2bf1da28775fcc1fa4ca"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dobot_interface/action/JointPTP_Goal",
+      "fields": [
+        {
+          "name": "joint_goal",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dobot_interface/action/JointPTP_Goal",
+      "hash_string": "RIHS01_69f4f9b0394b10a1352f3e035aae05cedebca85705e1bf6d697489a9e59ad507"
+    }
+  ]
+}

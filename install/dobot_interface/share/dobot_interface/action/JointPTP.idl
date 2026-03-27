@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dobot_interface/action/JointPTP.action
+// generated code does not contain a copyright notice
+
+
+module dobot_interface {
+  module action {
+    struct JointPTP_Goal {
+      double joint_goal;
+    };
+    struct JointPTP_Result {
+      boolean success;
+    };
+    struct JointPTP_Feedback {
+      double joint_present;
+    };
+  };
+};

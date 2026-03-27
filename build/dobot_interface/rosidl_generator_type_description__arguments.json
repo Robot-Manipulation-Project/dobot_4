@@ -1,0 +1,13 @@
+{
+  "package_name": "dobot_interface",
+  "output_dir": "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_generator_type_description/dobot_interface",
+  "idl_tuples": [
+    "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_adapter/dobot_interface:action/JointPTP.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
+  ]
+}

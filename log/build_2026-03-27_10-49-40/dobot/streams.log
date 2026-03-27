@@ -1,0 +1,31 @@
+[1.133s] Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot build --build-base /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build install --record /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/install.log --single-version-externally-managed install_data
+[1.451s] running egg_info
+[1.479s] writing ../../build/dobot/dobot.egg-info/PKG-INFO
+[1.479s] writing dependency_links to ../../build/dobot/dobot.egg-info/dependency_links.txt
+[1.479s] writing entry points to ../../build/dobot/dobot.egg-info/entry_points.txt
+[1.479s] writing requirements to ../../build/dobot/dobot.egg-info/requires.txt
+[1.479s] writing top-level names to ../../build/dobot/dobot.egg-info/top_level.txt
+[1.540s] reading manifest file '../../build/dobot/dobot.egg-info/SOURCES.txt'
+[1.540s] adding license file 'LICENSE'
+[1.540s] writing manifest file '../../build/dobot/dobot.egg-info/SOURCES.txt'
+[1.541s] running build
+[1.541s] running build_py
+[1.541s] copying dobot/joint_state_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot
+[1.542s] copying dobot/suction_cup_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot
+[1.542s] running install
+[1.553s] running install_lib
+[1.583s] copying /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot/joint_state_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot
+[1.583s] copying /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot/suction_cup_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot
+[1.584s] byte-compiling /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot/joint_state_node.py to joint_state_node.cpython-312.pyc
+[1.585s] byte-compiling /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot/suction_cup_node.py to suction_cup_node.cpython-312.pyc
+[1.585s] running install_data
+[1.586s] running install_egg_info
+[1.623s] removing '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot-0.0.0-py3.12.egg-info' (and everything under it)
+[1.623s] Copying ../../build/dobot/dobot.egg-info to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot-0.0.0-py3.12.egg-info
+[1.626s] running install_scripts
+[1.833s] Installing homing_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+[1.834s] Installing joint_ptp_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+[1.834s] Installing joint_state_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+[1.834s] Installing suction_cup_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+[1.834s] writing list of installed files to '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/install.log'
+[1.881s] Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot build --build-base /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build install --record /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/install.log --single-version-externally-managed install_data

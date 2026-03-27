@@ -1,0 +1,6 @@
+{
+  "package_name": "dobot_interface",
+  "non_idl_tuples": [
+    "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot_interface:action/JointPTP.action"
+  ]
+}

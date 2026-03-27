@@ -1,0 +1,16 @@
+[0.011s] Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot_interface -DCMAKE_INSTALL_PREFIX=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface
+[0.023s] -- Found ament_cmake: 2.7.4 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.238s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[0.659s] [31mCMake Error at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.659s]   Packages installing interfaces must include
+[0.659s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.659s]   package.xml
+[0.659s] Call Stack (most recent call first):
+[0.659s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.659s] 
+[0.659s] [0m
+[0.659s] -- Configuring incomplete, errors occurred!
+[0.663s] Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot_interface -DCMAKE_INSTALL_PREFIX=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface
