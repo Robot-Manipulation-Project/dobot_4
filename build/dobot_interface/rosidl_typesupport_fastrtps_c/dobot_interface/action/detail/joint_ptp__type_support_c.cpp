@@ -50,7 +50,9 @@ bool cdr_serialize_dobot_interface__action__JointPTP_Goal(
 {
   // Field name: joint_goal
   {
-    cdr << ros_message->joint_goal;
+    size_t size = 4;
+    auto array_ptr = ros_message->joint_goal;
+    cdr.serialize_array(array_ptr, size);
   }
 
   return true;
@@ -63,7 +65,9 @@ bool cdr_deserialize_dobot_interface__action__JointPTP_Goal(
 {
   // Field name: joint_goal
   {
-    cdr >> ros_message->joint_goal;
+    size_t size = 4;
+    auto array_ptr = ros_message->joint_goal;
+    cdr.deserialize_array(array_ptr, size);
   }
 
   return true;
@@ -86,8 +90,11 @@ size_t get_serialized_size_dobot_interface__action__JointPTP_Goal(
 
   // Field name: joint_goal
   {
-    size_t item_size = sizeof(ros_message->joint_goal);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    auto array_ptr = ros_message->joint_goal;
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -115,7 +122,7 @@ size_t max_serialized_size_dobot_interface__action__JointPTP_Goal(
 
   // Field name: joint_goal
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -144,7 +151,9 @@ bool cdr_serialize_key_dobot_interface__action__JointPTP_Goal(
 {
   // Field name: joint_goal
   {
-    cdr << ros_message->joint_goal;
+    size_t size = 4;
+    auto array_ptr = ros_message->joint_goal;
+    cdr.serialize_array(array_ptr, size);
   }
 
   return true;
@@ -167,8 +176,11 @@ size_t get_serialized_size_key_dobot_interface__action__JointPTP_Goal(
 
   // Field name: joint_goal
   {
-    size_t item_size = sizeof(ros_message->joint_goal);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    auto array_ptr = ros_message->joint_goal;
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -194,7 +206,7 @@ size_t max_serialized_size_key_dobot_interface__action__JointPTP_Goal(
   is_plain = true;
   // Field name: joint_goal
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -652,7 +664,9 @@ bool cdr_serialize_dobot_interface__action__JointPTP_Feedback(
 {
   // Field name: joint_present
   {
-    cdr << ros_message->joint_present;
+    size_t size = 4;
+    auto array_ptr = ros_message->joint_present;
+    cdr.serialize_array(array_ptr, size);
   }
 
   return true;
@@ -665,7 +679,9 @@ bool cdr_deserialize_dobot_interface__action__JointPTP_Feedback(
 {
   // Field name: joint_present
   {
-    cdr >> ros_message->joint_present;
+    size_t size = 4;
+    auto array_ptr = ros_message->joint_present;
+    cdr.deserialize_array(array_ptr, size);
   }
 
   return true;
@@ -688,8 +704,11 @@ size_t get_serialized_size_dobot_interface__action__JointPTP_Feedback(
 
   // Field name: joint_present
   {
-    size_t item_size = sizeof(ros_message->joint_present);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    auto array_ptr = ros_message->joint_present;
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -717,7 +736,7 @@ size_t max_serialized_size_dobot_interface__action__JointPTP_Feedback(
 
   // Field name: joint_present
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -746,7 +765,9 @@ bool cdr_serialize_key_dobot_interface__action__JointPTP_Feedback(
 {
   // Field name: joint_present
   {
-    cdr << ros_message->joint_present;
+    size_t size = 4;
+    auto array_ptr = ros_message->joint_present;
+    cdr.serialize_array(array_ptr, size);
   }
 
   return true;
@@ -769,8 +790,11 @@ size_t get_serialized_size_key_dobot_interface__action__JointPTP_Feedback(
 
   // Field name: joint_present
   {
-    size_t item_size = sizeof(ros_message->joint_present);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    auto array_ptr = ros_message->joint_present;
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -796,7 +820,7 @@ size_t max_serialized_size_key_dobot_interface__action__JointPTP_Feedback(
   is_plain = true;
   // Field name: joint_present
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));

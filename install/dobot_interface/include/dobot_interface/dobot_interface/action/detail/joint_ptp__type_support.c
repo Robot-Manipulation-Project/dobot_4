@@ -31,6 +31,51 @@ void dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c_
   dobot_interface__action__JointPTP_Goal__fini(message_memory);
 }
 
+size_t dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__size_function__JointPTP_Goal__joint_goal(
+  const void * untyped_member)
+{
+  (void)untyped_member;
+  return 4;
+}
+
+const void * dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__get_const_function__JointPTP_Goal__joint_goal(
+  const void * untyped_member, size_t index)
+{
+  const double * member =
+    (const double *)(untyped_member);
+  return &member[index];
+}
+
+void * dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__get_function__JointPTP_Goal__joint_goal(
+  void * untyped_member, size_t index)
+{
+  double * member =
+    (double *)(untyped_member);
+  return &member[index];
+}
+
+void dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__fetch_function__JointPTP_Goal__joint_goal(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const double * item =
+    ((const double *)
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__get_const_function__JointPTP_Goal__joint_goal(untyped_member, index));
+  double * value =
+    (double *)(untyped_value);
+  *value = *item;
+}
+
+void dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__assign_function__JointPTP_Goal__joint_goal(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  double * item =
+    ((double *)
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__get_function__JointPTP_Goal__joint_goal(untyped_member, index));
+  const double * value =
+    (const double *)(untyped_value);
+  *item = *value;
+}
+
 static rosidl_typesupport_introspection_c__MessageMember dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__JointPTP_Goal_message_member_array[1] = {
   {
     "joint_goal",  // name
@@ -38,16 +83,16 @@ static rosidl_typesupport_introspection_c__MessageMember dobot_interface__action
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
-    false,  // is array
-    0,  // array size
+    true,  // is array
+    4,  // array size
     false,  // is upper bound
     offsetof(dobot_interface__action__JointPTP_Goal, joint_goal),  // bytes offset in struct
     NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__size_function__JointPTP_Goal__joint_goal,  // size() function pointer
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__get_const_function__JointPTP_Goal__joint_goal,  // get_const(index) function pointer
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__get_function__JointPTP_Goal__joint_goal,  // get(index) function pointer
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__fetch_function__JointPTP_Goal__joint_goal,  // fetch(index, &value) function pointer
+    dobot_interface__action__JointPTP_Goal__rosidl_typesupport_introspection_c__assign_function__JointPTP_Goal__joint_goal,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
@@ -217,6 +262,51 @@ void dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspectio
   dobot_interface__action__JointPTP_Feedback__fini(message_memory);
 }
 
+size_t dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__size_function__JointPTP_Feedback__joint_present(
+  const void * untyped_member)
+{
+  (void)untyped_member;
+  return 4;
+}
+
+const void * dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__get_const_function__JointPTP_Feedback__joint_present(
+  const void * untyped_member, size_t index)
+{
+  const double * member =
+    (const double *)(untyped_member);
+  return &member[index];
+}
+
+void * dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__get_function__JointPTP_Feedback__joint_present(
+  void * untyped_member, size_t index)
+{
+  double * member =
+    (double *)(untyped_member);
+  return &member[index];
+}
+
+void dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__fetch_function__JointPTP_Feedback__joint_present(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const double * item =
+    ((const double *)
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__get_const_function__JointPTP_Feedback__joint_present(untyped_member, index));
+  double * value =
+    (double *)(untyped_value);
+  *value = *item;
+}
+
+void dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__assign_function__JointPTP_Feedback__joint_present(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  double * item =
+    ((double *)
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__get_function__JointPTP_Feedback__joint_present(untyped_member, index));
+  const double * value =
+    (const double *)(untyped_value);
+  *item = *value;
+}
+
 static rosidl_typesupport_introspection_c__MessageMember dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__JointPTP_Feedback_message_member_array[1] = {
   {
     "joint_present",  // name
@@ -224,16 +314,16 @@ static rosidl_typesupport_introspection_c__MessageMember dobot_interface__action
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is key
-    false,  // is array
-    0,  // array size
+    true,  // is array
+    4,  // array size
     false,  // is upper bound
     offsetof(dobot_interface__action__JointPTP_Feedback, joint_present),  // bytes offset in struct
     NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__size_function__JointPTP_Feedback__joint_present,  // size() function pointer
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__get_const_function__JointPTP_Feedback__joint_present,  // get_const(index) function pointer
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__get_function__JointPTP_Feedback__joint_present,  // get(index) function pointer
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__fetch_function__JointPTP_Feedback__joint_present,  // fetch(index, &value) function pointer
+    dobot_interface__action__JointPTP_Feedback__rosidl_typesupport_introspection_c__assign_function__JointPTP_Feedback__joint_present,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };

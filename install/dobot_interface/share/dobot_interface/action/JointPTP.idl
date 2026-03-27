@@ -5,14 +5,16 @@
 
 module dobot_interface {
   module action {
+    typedef double double__4[4];
     struct JointPTP_Goal {
-      double joint_goal;
+      double__4 joint_goal;
     };
     struct JointPTP_Result {
       boolean success;
     };
+    typedef double double__4[4];
     struct JointPTP_Feedback {
-      double joint_present;
+      double__4 joint_present;
     };
   };
 };

@@ -42,28 +42,28 @@ struct JointPTP_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->joint_goal = 0.0;
+      std::fill<typename std::array<double, 4>::iterator, double>(this->joint_goal.begin(), this->joint_goal.end(), 0.0);
     }
   }
 
   explicit JointPTP_Goal_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : joint_goal(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->joint_goal = 0.0;
+      std::fill<typename std::array<double, 4>::iterator, double>(this->joint_goal.begin(), this->joint_goal.end(), 0.0);
     }
   }
 
   // field types and members
   using _joint_goal_type =
-    double;
+    std::array<double, 4>;
   _joint_goal_type joint_goal;
 
   // setters for named parameter idiom
   Type & set__joint_goal(
-    const double & _arg)
+    const std::array<double, 4> & _arg)
   {
     this->joint_goal = _arg;
     return *this;
@@ -270,28 +270,28 @@ struct JointPTP_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->joint_present = 0.0;
+      std::fill<typename std::array<double, 4>::iterator, double>(this->joint_present.begin(), this->joint_present.end(), 0.0);
     }
   }
 
   explicit JointPTP_Feedback_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : joint_present(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->joint_present = 0.0;
+      std::fill<typename std::array<double, 4>::iterator, double>(this->joint_present.begin(), this->joint_present.end(), 0.0);
     }
   }
 
   // field types and members
   using _joint_present_type =
-    double;
+    std::array<double, 4>;
   _joint_present_type joint_present;
 
   // setters for named parameter idiom
   Type & set__joint_present(
-    const double & _arg)
+    const std::array<double, 4> & _arg)
   {
     this->joint_present = _arg;
     return *this;

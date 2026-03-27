@@ -724,12 +724,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 89,
-			"id" : "dobot_interface__cpp::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 9,
 			"id" : "dobot_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 89,
+			"id" : "dobot_interface__cpp::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "dobot_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",

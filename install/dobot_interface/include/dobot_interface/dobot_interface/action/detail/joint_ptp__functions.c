@@ -37,8 +37,10 @@ dobot_interface__action__JointPTP_Goal__are_equal(const dobot_interface__action_
     return false;
   }
   // joint_goal
-  if (lhs->joint_goal != rhs->joint_goal) {
-    return false;
+  for (size_t i = 0; i < 4; ++i) {
+    if (lhs->joint_goal[i] != rhs->joint_goal[i]) {
+      return false;
+    }
   }
   return true;
 }
@@ -52,7 +54,9 @@ dobot_interface__action__JointPTP_Goal__copy(
     return false;
   }
   // joint_goal
-  output->joint_goal = input->joint_goal;
+  for (size_t i = 0; i < 4; ++i) {
+    output->joint_goal[i] = input->joint_goal[i];
+  }
   return true;
 }
 
@@ -487,8 +491,10 @@ dobot_interface__action__JointPTP_Feedback__are_equal(const dobot_interface__act
     return false;
   }
   // joint_present
-  if (lhs->joint_present != rhs->joint_present) {
-    return false;
+  for (size_t i = 0; i < 4; ++i) {
+    if (lhs->joint_present[i] != rhs->joint_present[i]) {
+      return false;
+    }
   }
   return true;
 }
@@ -502,7 +508,9 @@ dobot_interface__action__JointPTP_Feedback__copy(
     return false;
   }
   // joint_present
-  output->joint_present = input->joint_present;
+  for (size_t i = 0; i < 4; ++i) {
+    output->joint_present[i] = input->joint_present[i];
+  }
   return true;
 }
 

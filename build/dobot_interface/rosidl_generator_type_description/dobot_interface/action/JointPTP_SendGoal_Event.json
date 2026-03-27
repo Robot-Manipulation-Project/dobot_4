@@ -67,8 +67,8 @@
           {
             "name": "joint_goal",
             "type": {
-              "type_id": 11,
-              "capacity": 0,
+              "type_id": 59,
+              "capacity": 4,
               "string_capacity": 0,
               "nested_type_name": ""
             },
@@ -191,7 +191,7 @@
   "type_hashes": [
     {
       "type_name": "dobot_interface/action/JointPTP_SendGoal_Event",
-      "hash_string": "RIHS01_b710948aa920b8700b431f6558358919867afef53cf479b6037016a64f735ea7"
+      "hash_string": "RIHS01_39c48453eb492a5491a0a1e9d5f725b784bfc1037e3f6848914bb27279dbced5"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -199,11 +199,11 @@
     },
     {
       "type_name": "dobot_interface/action/JointPTP_Goal",
-      "hash_string": "RIHS01_69f4f9b0394b10a1352f3e035aae05cedebca85705e1bf6d697489a9e59ad507"
+      "hash_string": "RIHS01_ac6481a277b689a11612648e711bdedefc5a445016b60deeb86b504bdb684487"
     },
     {
       "type_name": "dobot_interface/action/JointPTP_SendGoal_Request",
-      "hash_string": "RIHS01_e93ab9f836524db1f5b0a51f3398700fc7033497da8ce744a430c9c25b658295"
+      "hash_string": "RIHS01_9318a17d89ab07038ad780240ab1c1e0030c2270bfa6c92d129940867257fe16"
     },
     {
       "type_name": "dobot_interface/action/JointPTP_SendGoal_Response",

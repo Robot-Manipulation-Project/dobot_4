@@ -37,7 +37,9 @@ cdr_serialize(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: joint_goal
-  cdr << ros_message.joint_goal;
+  {
+    cdr << ros_message.joint_goal;
+  }
 
   return true;
 }
@@ -49,7 +51,9 @@ cdr_deserialize(
   dobot_interface::action::JointPTP_Goal & ros_message)
 {
   // Member: joint_goal
-  cdr >> ros_message.joint_goal;
+  {
+    cdr >> ros_message.joint_goal;
+  }
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -70,8 +74,9 @@ get_serialized_size(
 
   // Member: joint_goal
   {
-    size_t item_size = sizeof(ros_message.joint_goal);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    size_t item_size = sizeof(ros_message.joint_goal[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -100,7 +105,7 @@ max_serialized_size_JointPTP_Goal(
 
   // Member: joint_goal
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -129,7 +134,9 @@ cdr_serialize_key(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: joint_goal
-  cdr << ros_message.joint_goal;
+  {
+    cdr << ros_message.joint_goal;
+  }
 
   return true;
 }
@@ -149,8 +156,9 @@ get_serialized_size_key(
 
   // Member: joint_goal
   {
-    size_t item_size = sizeof(ros_message.joint_goal);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    size_t item_size = sizeof(ros_message.joint_goal[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -178,7 +186,7 @@ max_serialized_size_key_JointPTP_Goal(
 
   // Member: joint_goal
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -641,7 +649,9 @@ cdr_serialize(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: joint_present
-  cdr << ros_message.joint_present;
+  {
+    cdr << ros_message.joint_present;
+  }
 
   return true;
 }
@@ -653,7 +663,9 @@ cdr_deserialize(
   dobot_interface::action::JointPTP_Feedback & ros_message)
 {
   // Member: joint_present
-  cdr >> ros_message.joint_present;
+  {
+    cdr >> ros_message.joint_present;
+  }
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -674,8 +686,9 @@ get_serialized_size(
 
   // Member: joint_present
   {
-    size_t item_size = sizeof(ros_message.joint_present);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    size_t item_size = sizeof(ros_message.joint_present[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -704,7 +717,7 @@ max_serialized_size_JointPTP_Feedback(
 
   // Member: joint_present
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
@@ -733,7 +746,9 @@ cdr_serialize_key(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: joint_present
-  cdr << ros_message.joint_present;
+  {
+    cdr << ros_message.joint_present;
+  }
 
   return true;
 }
@@ -753,8 +768,9 @@ get_serialized_size_key(
 
   // Member: joint_present
   {
-    size_t item_size = sizeof(ros_message.joint_present);
-    current_alignment += item_size +
+    size_t array_size = 4;
+    size_t item_size = sizeof(ros_message.joint_present[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -782,7 +798,7 @@ max_serialized_size_key_JointPTP_Feedback(
 
   // Member: joint_present
   {
-    size_t array_size = 1;
+    size_t array_size = 4;
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));

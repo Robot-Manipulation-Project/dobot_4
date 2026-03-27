@@ -123,8 +123,8 @@ class JointPTPNode(Node):
             
         previous_joints = list(feedback_msg.joint_present)
         
-        # 5Hz feedback rate loop
-        loop_rate = 0.05
+        # 10Hz feedback rate loop
+        loop_rate = 0.1
         
         # Thresholds
         goal_threshold = 0.02
@@ -170,6 +170,8 @@ class JointPTPNode(Node):
                 return result
                 
             # 2. Monitor the differences between present and previous joint angles 
+            # Realistic scenario for failure: The robot arm is physically blocked by an obstacle
+            # or the motor is overloaded, stopping further movement but still trying to reach the goal.
             stuck_diff = [abs(p - prev) for p, prev in zip(feedback_msg.joint_present, previous_joints)]
             if all(d < stuck_threshold for d in stuck_diff):
                 self.get_logger().info("Action failed: Arm is stuck.")

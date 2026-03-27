@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so"
+			"path" : "rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so"
 		}
 	],
 	"backtrace" : 7,
@@ -33,7 +33,6 @@
 			"/opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
 			"CMakeLists.txt",
 			"/opt/ros/kilted/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake",
-			"/opt/ros/kilted/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake",
 			"/opt/ros/kilted/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
 			"/opt/ros/kilted/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake",
 			"/opt/ros/kilted/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake",
@@ -124,19 +123,7 @@
 			{
 				"command" : 7,
 				"file" : 6,
-				"line" : 146,
-				"parent" : 11
-			},
-			{
-				"command" : 7,
-				"file" : 6,
-				"line" : 146,
-				"parent" : 11
-			},
-			{
-				"command" : 7,
-				"file" : 6,
-				"line" : 146,
+				"line" : 136,
 				"parent" : 11
 			},
 			{
@@ -153,77 +140,49 @@
 			},
 			{
 				"file" : 7,
-				"parent" : 16
+				"parent" : 14
 			},
 			{
 				"command" : 7,
 				"file" : 7,
-				"line" : 142,
-				"parent" : 17
-			},
-			{
-				"command" : 7,
-				"file" : 7,
-				"line" : 151,
-				"parent" : 17
-			},
-			{
-				"command" : 7,
-				"file" : 7,
-				"line" : 151,
-				"parent" : 17
-			},
-			{
-				"command" : 7,
-				"file" : 7,
-				"line" : 151,
-				"parent" : 17
-			},
-			{
-				"command" : 3,
-				"file" : 3,
-				"line" : 48,
-				"parent" : 2
-			},
-			{
-				"file" : 8,
-				"parent" : 22
-			},
-			{
-				"command" : 7,
-				"file" : 8,
 				"line" : 165,
-				"parent" : 23
+				"parent" : 15
 			},
 			{
 				"command" : 7,
-				"file" : 8,
-				"line" : 165,
-				"parent" : 23
-			},
-			{
-				"command" : 7,
-				"file" : 8,
-				"line" : 165,
-				"parent" : 23
+				"file" : 6,
+				"line" : 146,
+				"parent" : 11
 			},
 			{
 				"command" : 7,
 				"file" : 7,
-				"line" : 151,
-				"parent" : 17
+				"line" : 165,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 146,
+				"parent" : 11
 			},
 			{
 				"command" : 7,
 				"file" : 7,
-				"line" : 145,
-				"parent" : 17
+				"line" : 165,
+				"parent" : 15
 			},
 			{
 				"command" : 7,
-				"file" : 8,
+				"file" : 6,
+				"line" : 146,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 7,
 				"line" : 165,
-				"parent" : 23
+				"parent" : 15
 			},
 			{
 				"command" : 9,
@@ -232,166 +191,160 @@
 				"parent" : 0
 			},
 			{
-				"file" : 19,
+				"file" : 18,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 41,
+				"parent" : 24
+			},
+			{
+				"file" : 17,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 26
+			},
+			{
+				"file" : 16,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 28
+			},
+			{
+				"file" : 15,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 15,
+				"line" : 21,
 				"parent" : 30
 			},
 			{
-				"command" : 3,
-				"file" : 19,
-				"line" : 41,
+				"file" : 14,
 				"parent" : 31
 			},
 			{
-				"file" : 18,
+				"command" : 3,
+				"file" : 14,
+				"line" : 41,
 				"parent" : 32
 			},
 			{
-				"command" : 9,
-				"file" : 18,
-				"line" : 21,
+				"file" : 13,
 				"parent" : 33
 			},
 			{
-				"file" : 17,
+				"command" : 9,
+				"file" : 13,
+				"line" : 13,
 				"parent" : 34
 			},
 			{
-				"command" : 3,
-				"file" : 17,
-				"line" : 41,
+				"file" : 12,
 				"parent" : 35
 			},
 			{
-				"file" : 16,
+				"command" : 3,
+				"file" : 12,
+				"line" : 41,
 				"parent" : 36
 			},
 			{
-				"command" : 9,
-				"file" : 16,
-				"line" : 21,
+				"file" : 11,
 				"parent" : 37
 			},
 			{
-				"file" : 15,
+				"command" : 9,
+				"file" : 11,
+				"line" : 21,
 				"parent" : 38
 			},
 			{
-				"command" : 3,
-				"file" : 15,
-				"line" : 41,
+				"file" : 10,
 				"parent" : 39
 			},
 			{
-				"file" : 14,
+				"command" : 3,
+				"file" : 10,
+				"line" : 41,
 				"parent" : 40
 			},
 			{
-				"command" : 9,
-				"file" : 14,
-				"line" : 13,
+				"file" : 9,
 				"parent" : 41
 			},
 			{
-				"file" : 13,
+				"command" : 3,
+				"file" : 9,
+				"line" : 9,
 				"parent" : 42
 			},
 			{
-				"command" : 3,
-				"file" : 13,
-				"line" : 41,
+				"file" : 8,
 				"parent" : 43
 			},
 			{
-				"file" : 12,
+				"command" : 8,
+				"file" : 8,
+				"line" : 61,
 				"parent" : 44
 			},
 			{
-				"command" : 9,
-				"file" : 12,
-				"line" : 21,
-				"parent" : 45
+				"command" : 3,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 40
 			},
 			{
-				"file" : 11,
+				"file" : 22,
 				"parent" : 46
 			},
 			{
-				"command" : 3,
-				"file" : 11,
-				"line" : 41,
+				"command" : 9,
+				"file" : 22,
+				"line" : 21,
 				"parent" : 47
 			},
 			{
-				"file" : 10,
+				"file" : 21,
 				"parent" : 48
 			},
 			{
 				"command" : 3,
-				"file" : 10,
-				"line" : 9,
+				"file" : 21,
+				"line" : 41,
 				"parent" : 49
 			},
 			{
-				"file" : 9,
+				"file" : 20,
 				"parent" : 50
 			},
 			{
-				"command" : 8,
-				"file" : 9,
-				"line" : 61,
+				"command" : 3,
+				"file" : 20,
+				"line" : 9,
 				"parent" : 51
 			},
 			{
-				"command" : 3,
-				"file" : 11,
-				"line" : 41,
-				"parent" : 47
-			},
-			{
-				"file" : 23,
-				"parent" : 53
-			},
-			{
-				"command" : 9,
-				"file" : 23,
-				"line" : 21,
-				"parent" : 54
-			},
-			{
-				"file" : 22,
-				"parent" : 55
-			},
-			{
-				"command" : 3,
-				"file" : 22,
-				"line" : 41,
-				"parent" : 56
-			},
-			{
-				"file" : 21,
-				"parent" : 57
-			},
-			{
-				"command" : 3,
-				"file" : 21,
-				"line" : 9,
-				"parent" : 58
-			},
-			{
-				"file" : 20,
-				"parent" : 59
+				"file" : 19,
+				"parent" : 52
 			},
 			{
 				"command" : 8,
-				"file" : 20,
+				"file" : 19,
 				"line" : 61,
-				"parent" : 60
-			},
-			{
-				"command" : 10,
-				"file" : 2,
-				"line" : 232,
-				"parent" : 4
+				"parent" : 53
 			},
 			{
 				"command" : 10,
@@ -412,34 +365,34 @@
 				"parent" : 2
 			},
 			{
-				"file" : 26,
-				"parent" : 65
+				"file" : 25,
+				"parent" : 57
 			},
 			{
 				"command" : 9,
-				"file" : 26,
+				"file" : 25,
 				"line" : 21,
-				"parent" : 66
+				"parent" : 58
 			},
 			{
-				"file" : 25,
-				"parent" : 67
+				"file" : 24,
+				"parent" : 59
 			},
 			{
 				"command" : 3,
-				"file" : 25,
+				"file" : 24,
 				"line" : 41,
-				"parent" : 68
+				"parent" : 60
 			},
 			{
-				"file" : 24,
-				"parent" : 69
+				"file" : 23,
+				"parent" : 61
 			},
 			{
 				"command" : 11,
-				"file" : 24,
+				"file" : 23,
 				"line" : 18,
-				"parent" : 70
+				"parent" : 62
 			},
 			{
 				"command" : 12,
@@ -464,40 +417,36 @@
 					"fragment" : "-fPIC"
 				},
 				{
-					"backtrace" : 64,
+					"backtrace" : 56,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 64,
+					"backtrace" : 56,
 					"fragment" : "-Wextra"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 71,
+					"backtrace" : 63,
 					"define" : "ROS_PACKAGE_NAME=\"dobot_interface\""
 				},
 				{
-					"define" : "dobot_interface_s__rosidl_typesupport_introspection_c_EXPORTS"
+					"define" : "dobot_interface_s__rosidl_typesupport_c_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 72,
+					"backtrace" : 64,
 					"path" : "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_generator_c"
 				},
 				{
-					"backtrace" : 72,
+					"backtrace" : 64,
 					"path" : "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_generator_py"
 				},
 				{
-					"backtrace" : 9,
-					"path" : "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_typesupport_introspection_c"
-				},
-				{
-					"backtrace" : 73,
+					"backtrace" : 65,
 					"isSystem" : true,
 					"path" : "/usr/include/python3.12"
 				},
@@ -539,11 +488,6 @@
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/opt/ros/kilted/include/rosidl_typesupport_introspection_c"
-				},
-				{
-					"backtrace" : 9,
-					"isSystem" : true,
 					"path" : "/opt/ros/kilted/include/rosidl_typesupport_c"
 				}
 			],
@@ -558,26 +502,22 @@
 	[
 		{
 			"backtrace" : 9,
-			"id" : "dobot_interface__rosidl_generator_py::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 9,
 			"id" : "dobot_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 62,
-			"id" : "dobot_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 63,
+			"backtrace" : 55,
 			"id" : "dobot_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 63,
+			"backtrace" : 55,
 			"id" : "dobot_interface__py::@1a424335a7912808230a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "dobot_interface__rosidl_generator_py::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "dobot_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+	"id" : "dobot_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -611,31 +551,46 @@
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "libdobot_interface__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 9,
 				"fragment" : "libdobot_interface__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 12,
-				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_c.so",
+				"fragment" : "libdobot_interface__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 13,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
 				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 14,
+				"backtrace" : 18,
+				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
 				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
 				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
@@ -645,52 +600,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 18,
-				"fragment" : "libdobot_interface__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 19,
-				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 20,
-				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 21,
-				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 24,
-				"fragment" : "/opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 25,
-				"fragment" : "/opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 26,
-				"fragment" : "/opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 27,
-				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 28,
-				"fragment" : "/opt/ros/kilted/lib/librosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 29,
+				"backtrace" : 22,
 				"fragment" : "/opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
@@ -700,17 +610,17 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 52,
+				"backtrace" : 45,
 				"fragment" : "/opt/ros/kilted/lib/librcutils.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 61,
+				"backtrace" : 54,
 				"fragment" : "-ldl",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 61,
+				"backtrace" : 54,
 				"fragment" : "-latomic",
 				"role" : "libraries"
 			},
@@ -721,8 +631,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "dobot_interface_s__rosidl_typesupport_introspection_c",
-	"nameOnDisk" : "dobot_interface_s__rosidl_typesupport_introspection_c.so",
+	"name" : "dobot_interface_s__rosidl_typesupport_c",
+	"nameOnDisk" : "dobot_interface_s__rosidl_typesupport_c.so",
 	"paths" : 
 	{
 		"build" : ".",
@@ -744,7 +654,7 @@
 			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c",
+			"path" : "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c",
 			"sourceGroupIndex" : 0
 		}
 	],

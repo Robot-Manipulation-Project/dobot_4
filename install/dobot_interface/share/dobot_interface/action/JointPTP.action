@@ -1,6 +1,6 @@
-float64 joint_goal
+float64[4] joint_goal
 ---
 bool success
 ---
-float64 joint_present
+float64[4] joint_present
 

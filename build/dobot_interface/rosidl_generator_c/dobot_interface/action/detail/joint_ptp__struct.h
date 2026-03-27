@@ -23,7 +23,7 @@ extern "C"
 /// Struct defined in action/JointPTP in the package dobot_interface.
 typedef struct dobot_interface__action__JointPTP_Goal
 {
-  double joint_goal;
+  double joint_goal[4];
 } dobot_interface__action__JointPTP_Goal;
 
 // Struct for a sequence of dobot_interface__action__JointPTP_Goal.
@@ -59,7 +59,7 @@ typedef struct dobot_interface__action__JointPTP_Result__Sequence
 /// Struct defined in action/JointPTP in the package dobot_interface.
 typedef struct dobot_interface__action__JointPTP_Feedback
 {
-  double joint_present;
+  double joint_present[4];
 } dobot_interface__action__JointPTP_Feedback;
 
 // Struct for a sequence of dobot_interface__action__JointPTP_Feedback.

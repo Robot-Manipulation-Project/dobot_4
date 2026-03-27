@@ -6,8 +6,8 @@
         {
           "name": "joint_present",
           "type": {
-            "type_id": 11,
-            "capacity": 0,
+            "type_id": 59,
+            "capacity": 4,
             "string_capacity": 0,
             "nested_type_name": ""
           },
@@ -20,7 +20,7 @@
   "type_hashes": [
     {
       "type_name": "dobot_interface/action/JointPTP_Feedback",
-      "hash_string": "RIHS01_bb31c73234296684d76eb08f537592051493e6bb641e2bf1da28775fcc1fa4ca"
+      "hash_string": "RIHS01_dce2ec7879f73fa62c78dc9bfdb4cd5707b584cbc78ff4f6e4c6e1b07d9b60b5"
     }
   ]
 }
