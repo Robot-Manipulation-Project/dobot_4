@@ -418,6 +418,19 @@ dobot_interface__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
 .PHONY : dobot_interface__py/fast
 
+#=============================================================================
+# Target rules for targets named dobot_interface__rs
+
+# Build rule for target.
+dobot_interface__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dobot_interface__rs
+.PHONY : dobot_interface__rs
+
+# fast build rule for target.
+dobot_interface__rs/fast:
+	$(MAKE) $(MAKESILENT) -f /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build.make /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build
+.PHONY : dobot_interface__rs/fast
+
 rosidl_generator_c/dobot_interface/action/detail/joint_ptp__description.o: rosidl_generator_c/dobot_interface/action/detail/joint_ptp__description.c.o
 .PHONY : rosidl_generator_c/dobot_interface/action/detail/joint_ptp__description.o
 
@@ -749,6 +762,7 @@ help:
 	@echo "... dobot_interface__cpp"
 	@echo "... dobot_interface__py"
 	@echo "... dobot_interface__rosidl_generator_type_description"
+	@echo "... dobot_interface__rs"
 	@echo "... dobot_interface_uninstall"
 	@echo "... uninstall"
 	@echo "... dobot_interface__rosidl_generator_c"

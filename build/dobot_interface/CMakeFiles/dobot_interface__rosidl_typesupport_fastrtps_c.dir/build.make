@@ -124,7 +124,7 @@ libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libros
 libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librmw.so
 libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_dynamic_typesupport.so
 libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_typesupport_fastrtps_c.so
-libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libfastcdr.so.2.3.3
+libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/x86_64-linux-gnu/libfastcdr.so.2.3.5
 libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so
 libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so
 libdobot_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so

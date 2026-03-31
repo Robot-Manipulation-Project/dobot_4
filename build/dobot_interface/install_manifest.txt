@@ -52,6 +52,12 @@
 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so
 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so
 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_generator_py.so
+/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/rust_packages/dobot_interface
+/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/action.rs
+/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/lib.rs
+/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/action/rmw.rs
+/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/Cargo.toml
+/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/build.rs
 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/action/JointPTP.idl
 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/action/JointPTP.action
 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/package_run_dependencies/dobot_interface

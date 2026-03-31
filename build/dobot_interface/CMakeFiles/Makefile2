@@ -77,10 +77,12 @@ all: CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all
 all: CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all
 all: CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all
 all: dobot_interface__py/all
+all: dobot_interface__rs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: dobot_interface__py/preinstall
+preinstall: dobot_interface__rs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -103,6 +105,7 @@ clean: CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/clean
 clean: CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/clean
 clean: CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/clean
 clean: dobot_interface__py/clean
+clean: dobot_interface__rs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -119,6 +122,21 @@ dobot_interface__py/preinstall:
 # Recursive "clean" directory target.
 dobot_interface__py/clean: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean
 .PHONY : dobot_interface__py/clean
+
+#=============================================================================
+# Directory level rules for directory dobot_interface__rs
+
+# Recursive "all" directory target.
+dobot_interface__rs/all: dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/all
+.PHONY : dobot_interface__rs/all
+
+# Recursive "preinstall" directory target.
+dobot_interface__rs/preinstall:
+.PHONY : dobot_interface__rs/preinstall
+
+# Recursive "clean" directory target.
+dobot_interface__rs/clean: dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/clean
+.PHONY : dobot_interface__rs/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -176,15 +194,16 @@ CMakeFiles/dobot_interface_uninstall.dir/clean:
 # Target rules for target CMakeFiles/dobot_interface.dir
 
 # All Build rule for target.
+CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/all
 CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/all
 CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_generator_c.dir/all
 CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/all
 CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__cpp.dir/all
-CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/all
-CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/all
-CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/all
+CMakeFiles/dobot_interface.dir/all: dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface.dir/build.make CMakeFiles/dobot_interface.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface.dir/build.make CMakeFiles/dobot_interface.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num= "Built target dobot_interface"
@@ -192,7 +211,7 @@ CMakeFiles/dobot_interface.dir/all: CMakeFiles/dobot_interface__rosidl_typesuppo
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dobot_interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dobot_interface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
 .PHONY : CMakeFiles/dobot_interface.dir/rule
@@ -499,9 +518,9 @@ CMakeFiles/ament_cmake_python_build_dobot_interface_egg.dir/clean:
 # Target rules for target CMakeFiles/dobot_interface__rosidl_generator_py.dir
 
 # All Build rule for target.
+CMakeFiles/dobot_interface__rosidl_generator_py.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
 CMakeFiles/dobot_interface__rosidl_generator_py.dir/all: CMakeFiles/dobot_interface__rosidl_generator_c.dir/all
 CMakeFiles/dobot_interface__rosidl_generator_py.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/all
-CMakeFiles/dobot_interface__rosidl_generator_py.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_py.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_py.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=8,9 "Built target dobot_interface__rosidl_generator_py"
@@ -509,7 +528,7 @@ CMakeFiles/dobot_interface__rosidl_generator_py.dir/all: dobot_interface__py/CMa
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dobot_interface__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
 .PHONY : CMakeFiles/dobot_interface__rosidl_generator_py.dir/rule
@@ -527,19 +546,19 @@ CMakeFiles/dobot_interface__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir
 
 # All Build rule for target.
+CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
+CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_c.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/all
-CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
-CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=31,32 "Built target dobot_interface_s__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=32,33 "Built target dobot_interface_s__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
 .PHONY : CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/rule
@@ -557,19 +576,19 @@ CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/clean:
 # Target rules for target CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir
 
 # All Build rule for target.
+CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
+CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_c.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/all
-CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
-CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=33,34 "Built target dobot_interface_s__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=34,35 "Built target dobot_interface_s__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
 .PHONY : CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/rule
@@ -587,18 +606,18 @@ CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/clean:
 # Target rules for target CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir
 
 # All Build rule for target.
+CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
+CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_c.dir/all
 CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all: CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/all
-CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
-CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all: CMakeFiles/dobot_interface__rosidl_generator_py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/build.make CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/build.make CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=29,30 "Built target dobot_interface_s__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=30,31 "Built target dobot_interface_s__rosidl_typesupport_c"
 .PHONY : CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
 .PHONY : CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/rule
@@ -624,7 +643,7 @@ dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all: CMakeFiles/dobot_int
 
 # Build rule for subdir invocation for target.
 dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
 .PHONY : dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
@@ -637,6 +656,32 @@ dobot_interface__py: dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
 dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean
 .PHONY : dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean
+
+#=============================================================================
+# Target rules for target /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir
+
+# All Build rule for target.
+dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/all:
+	$(MAKE) $(MAKESILENT) -f /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build.make /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/depend
+	$(MAKE) $(MAKESILENT) -f /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build.make /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles --progress-num=29 "Built target dobot_interface__rs"
+.PHONY : dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/all
+
+# Build rule for subdir invocation for target.
+dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/CMakeFiles 0
+.PHONY : dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/rule
+
+# Convenience name for target.
+dobot_interface__rs: dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/rule
+.PHONY : dobot_interface__rs
+
+# clean rule for target.
+dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build.make /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/clean
+.PHONY : dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

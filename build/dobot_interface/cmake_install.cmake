@@ -101,7 +101,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so")
@@ -182,7 +182,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/kilted/lib:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:"
+         OLD_RPATH "/opt/ros/kilted/lib:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so")
@@ -284,7 +284,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so")
@@ -308,7 +308,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so")
@@ -332,7 +332,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so")
@@ -356,7 +356,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_generator_py.so"
-         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdobot_interface__rosidl_generator_py.so")
@@ -365,6 +365,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/dobot_interface__rs/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rust_packages" TYPE FILE FILES "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/ament_cmake_index/share/ament_index/resource_index/rust_packages/dobot_interface")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dobot_interface" TYPE DIRECTORY FILES "/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface/rosidl_generator_rs/dobot_interface/rust")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
