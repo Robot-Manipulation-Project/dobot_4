@@ -1,0 +1,207 @@
+[0.325s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.325s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7883ddcbfe60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7883ddcbfc20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7883ddcbfc20>>, mixin_verb=('build',))
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.422s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot' with type 'ros.ament_python' and name 'dobot'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_interface' with type 'ros.ament_cmake' and name 'dobot_interface'
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.544s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install
+[0.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/kilted
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface', 'merge_install': False, 'path': '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot_interface', 'symlink_install': False, 'test_result_base': None}
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'cmake_target' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'dobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] DEBUG:colcon.colcon_core.verb:Building package 'dobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot', 'merge_install': False, 'path': '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot', 'symlink_install': False, 'test_result_base': None}
+[0.685s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot_interface' with build type 'ament_cmake'
+[0.688s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot_interface'
+[0.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface -- -j8 -l8
+[2.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface -- -j8 -l8
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface
+[2.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_interface)
+[2.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface' for CMake module files
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface' for CMake config files
+[2.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'cmake_prefix_path')
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.dsv'
+[2.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.sh'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib'
+[2.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'ld_library_path_lib')
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.ps1'
+[2.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.dsv'
+[2.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.sh'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/bin'
+[2.434s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/pkgconfig/dobot_interface.pc'
+[2.435s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages'
+[2.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'pythonpath')
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/pythonpath.ps1'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/pythonpath.dsv'
+[2.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/pythonpath.sh'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/bin'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.ps1'
+[2.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.dsv'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.sh'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.bash'
+[2.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.zsh'
+[2.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/colcon-core/packages/dobot_interface)
+[2.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_interface)
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface' for CMake module files
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface' for CMake config files
+[2.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'cmake_prefix_path')
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.ps1'
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.sh'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib'
+[2.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'ld_library_path_lib')
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.sh'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/bin'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/pkgconfig/dobot_interface.pc'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages'
+[2.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'pythonpath')
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/pythonpath.ps1'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/pythonpath.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/hook/pythonpath.sh'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/bin'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.ps1'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.zsh'
+[2.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/colcon-core/packages/dobot_interface)
+[2.471s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot' with build type 'ament_python'
+[2.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot', 'ament_prefix_path')
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/hook/ament_prefix_path.ps1'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/hook/ament_prefix_path.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/hook/ament_prefix_path.sh'
+[2.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.225s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot'
+[3.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot build --build-base /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build install --record /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/install.log --single-version-externally-managed install_data
+[7.075s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot' for CMake module files
+[7.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/src/dobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot build --build-base /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build install --record /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/install.log --single-version-externally-managed install_data
+[7.078s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot' for CMake config files
+[7.080s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib'
+[7.081s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/bin'
+[7.081s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/pkgconfig/dobot.pc'
+[7.082s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages'
+[7.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot', 'pythonpath')
+[7.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/hook/pythonpath.ps1'
+[7.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/hook/pythonpath.dsv'
+[7.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/hook/pythonpath.sh'
+[7.088s] Level 1:colcon.colcon_core.environment:checking '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/bin'
+[7.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot)
+[7.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/package.ps1'
+[7.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/package.dsv'
+[7.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/package.sh'
+[7.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/package.bash'
+[7.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/dobot/package.zsh'
+[7.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/share/colcon-core/packages/dobot)
+[7.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.099s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.112s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.138s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/local_setup.ps1'
+[7.142s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/_local_setup_util_ps1.py'
+[7.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/setup.ps1'
+[7.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/local_setup.sh'
+[7.152s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/_local_setup_util_sh.py'
+[7.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/setup.sh'
+[7.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/local_setup.bash'
+[7.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/setup.bash'
+[7.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/local_setup.zsh'
+[7.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/setup.zsh'

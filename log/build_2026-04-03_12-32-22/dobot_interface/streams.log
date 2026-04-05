@@ -1,0 +1,162 @@
+[0.025s] Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface -- -j8 -l8
+[0.138s] [  2%] Built target dobot_interface__rosidl_generator_type_description
+[0.141s] [  5%] Built target dobot_interface__rs
+[0.166s] [  5%] Built target ament_cmake_python_copy_dobot_interface
+[0.192s] [ 20%] Built target dobot_interface__rosidl_generator_c
+[0.195s] [ 22%] Built target dobot_interface__cpp
+[0.273s] [ 37%] Built target dobot_interface__rosidl_typesupport_c
+[0.273s] [ 40%] Built target dobot_interface__rosidl_typesupport_introspection_c
+[0.274s] [ 48%] Built target dobot_interface__rosidl_typesupport_fastrtps_cpp
+[0.279s] [ 57%] Built target dobot_interface__rosidl_typesupport_introspection_cpp
+[0.280s] [ 65%] Built target dobot_interface__rosidl_typesupport_fastrtps_c
+[0.285s] [ 74%] Built target dobot_interface__rosidl_typesupport_cpp
+[0.335s] [ 74%] Built target dobot_interface
+[0.389s] [ 77%] Built target dobot_interface__py
+[0.449s] [ 82%] Built target dobot_interface__rosidl_generator_py
+[0.521s] [ 88%] Built target dobot_interface_s__rosidl_typesupport_introspection_c
+[0.529s] [ 97%] Built target dobot_interface_s__rosidl_typesupport_c
+[0.529s] [100%] Built target dobot_interface_s__rosidl_typesupport_fastrtps_c
+[1.051s] running egg_info
+[1.134s] writing dobot_interface.egg-info/PKG-INFO
+[1.135s] writing dependency_links to dobot_interface.egg-info/dependency_links.txt
+[1.135s] writing top-level names to dobot_interface.egg-info/top_level.txt
+[1.377s] reading manifest file 'dobot_interface.egg-info/SOURCES.txt'
+[1.379s] writing manifest file 'dobot_interface.egg-info/SOURCES.txt'
+[1.449s] [100%] Built target ament_cmake_python_build_dobot_interface_egg
+[1.477s] Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface -- -j8 -l8
+[1.499s] Invoking command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface
+[1.521s] -- Install configuration: ""
+[1.521s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/rosidl_interfaces/dobot_interface
+[1.521s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/action/JointPTP.json
+[1.522s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface
+[1.522s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[1.523s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_generator_c__visibility_control.h
+[1.523s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[1.524s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[1.524s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__description.c
+[1.525s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__type_support.h
+[1.525s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__functions.c
+[1.525s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__functions.h
+[1.525s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__type_support.c
+[1.526s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__struct.h
+[1.526s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/joint_ptp.h
+[1.526s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/library_path.sh
+[1.526s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/library_path.dsv
+[1.527s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_generator_c.so
+[1.527s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface
+[1.528s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[1.528s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.528s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[1.528s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[1.529s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__rosidl_typesupport_fastrtps_c.h
+[1.529s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so
+[1.529s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface
+[1.529s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[1.530s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.530s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[1.530s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[1.531s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__rosidl_typesupport_introspection_c.h
+[1.531s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__type_support.c
+[1.531s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_c.so
+[1.532s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_c.so
+[1.532s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface
+[1.533s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[1.533s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.534s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[1.534s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/joint_ptp.hpp
+[1.534s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[1.535s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__type_support.hpp
+[1.535s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__traits.hpp
+[1.535s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__builder.hpp
+[1.536s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__struct.hpp
+[1.536s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface
+[1.536s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[1.536s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.537s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[1.537s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[1.537s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__rosidl_typesupport_fastrtps_cpp.hpp
+[1.538s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/dds_fastrtps
+[1.538s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.538s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface
+[1.538s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[1.539s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[1.539s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__rosidl_typesupport_introspection_cpp.hpp
+[1.539s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/joint_ptp__type_support.cpp
+[1.540s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_cpp.so
+[1.540s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_cpp.so
+[1.540s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/pythonpath.sh
+[1.541s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/pythonpath.dsv
+[1.541s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info
+[1.541s] -- Installing: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.542s] -- Installing: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.542s] -- Installing: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[1.542s] -- Installing: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/top_level.txt
+[1.542s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface
+[1.543s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so
+[1.543s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c
+[1.543s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.544s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/__init__.py
+[1.544s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.544s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so
+[1.545s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so
+[1.545s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action
+[1.545s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/__init__.py
+[1.546s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_joint_ptp_s.c
+[1.546s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_joint_ptp.py
+[1.630s] Listing '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface'...
+[1.630s] Listing '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action'...
+[1.644s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so
+[1.645s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so
+[1.646s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so
+[1.647s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/lib/libdobot_interface__rosidl_generator_py.so
+[1.648s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/rust_packages/dobot_interface
+[1.648s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust
+[1.649s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src
+[1.650s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/action.rs
+[1.650s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/lib.rs
+[1.651s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/action
+[1.651s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/src/action/rmw.rs
+[1.652s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/Cargo.toml
+[1.652s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/rust/build.rs
+[1.653s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/action/JointPTP.idl
+[1.654s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/action/JointPTP.action
+[1.654s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/package_run_dependencies/dobot_interface
+[1.654s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/parent_prefix_path/dobot_interface
+[1.655s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/ament_prefix_path.sh
+[1.656s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/ament_prefix_path.dsv
+[1.656s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/path.sh
+[1.656s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/environment/path.dsv
+[1.657s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/local_setup.bash
+[1.657s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/local_setup.sh
+[1.657s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/local_setup.zsh
+[1.658s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/local_setup.dsv
+[1.658s] -- Installing: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.dsv
+[1.658s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/ament_index/resource_index/packages/dobot_interface
+[1.659s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cExport.cmake
+[1.659s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cExport-noconfig.cmake
+[1.660s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.661s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.662s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.663s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.663s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cExport.cmake
+[1.664s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.665s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cppExport.cmake
+[1.665s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.666s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.667s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.668s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.668s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cppExport.cmake
+[1.669s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.670s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_pyExport.cmake
+[1.670s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.672s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake-extras.cmake
+[1.672s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.674s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.675s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.676s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.676s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.676s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.677s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interfaceConfig.cmake
+[1.677s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/cmake/dobot_interfaceConfig-version.cmake
+[1.678s] -- Up-to-date: /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot_interface/share/dobot_interface/package.xml
+[1.678s] Invoked command in '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot_interface

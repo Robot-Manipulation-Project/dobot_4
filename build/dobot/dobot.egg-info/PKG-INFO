@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: dobot
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Basic ROS2 interface for Dobot Magician robotic arm
 Maintainer: YasiruRF
 Maintainer-email: dyrfernando@gmail.com
 License: Apache-2.0

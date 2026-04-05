@@ -19,7 +19,7 @@ setup(
     zip_safe=True,
     maintainer='YasiruRF',
     maintainer_email='dyrfernando@gmail.com',
-    description='TODO: Package description',
+    description='Basic ROS2 interface for Dobot Magician robotic arm',
     license='Apache-2.0',
     extras_require={
         'test': [

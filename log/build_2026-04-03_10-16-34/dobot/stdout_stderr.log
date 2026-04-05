@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/dobot/dobot.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot/dobot.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot/dobot.egg-info/entry_points.txt
+writing requirements to ../../build/dobot/dobot.egg-info/requires.txt
+writing top-level names to ../../build/dobot/dobot.egg-info/top_level.txt
+reading manifest file '../../build/dobot/dobot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/dobot/dobot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dobot/homing_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot
+copying dobot/joint_state_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot
+copying dobot/joint_ptp_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot
+copying dobot/suction_cup_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot
+running install
+running install_lib
+copying /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot/homing_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot
+copying /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot/joint_state_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot
+copying /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot/joint_ptp_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot
+copying /home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/build/lib/dobot/suction_cup_node.py -> /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot
+byte-compiling /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot/homing_node.py to homing_node.cpython-312.pyc
+byte-compiling /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot/joint_state_node.py to joint_state_node.cpython-312.pyc
+byte-compiling /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot/joint_ptp_node.py to joint_ptp_node.cpython-312.pyc
+byte-compiling /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot/suction_cup_node.py to suction_cup_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dobot/dobot.egg-info to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/python3.12/site-packages/dobot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing homing_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+Installing joint_ptp_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+Installing joint_state_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+Installing suction_cup_node script to /home/yasiru/Documents/dobot/milestone_4/mxen_ws/install/dobot/lib/dobot
+writing list of installed files to '/home/yasiru/Documents/dobot/milestone_4/mxen_ws/build/dobot/install.log'

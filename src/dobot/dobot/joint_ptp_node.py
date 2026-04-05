@@ -1,26 +1,14 @@
 # The following imports are necessary
 import threading
-import sys
-import os
 import rclpy
 from rclpy.action import ActionServer, CancelResponse, GoalResponse
 from rclpy.callback_groups import ReentrantCallbackGroup
 from rclpy.executors import ExternalShutdownException
 from rclpy.executors import MultiThreadedExecutor
 from rclpy.node import Node
-from ament_index_python.packages import get_package_share_directory
 
-share_dir = get_package_share_directory('dobot')
-resource_dir = os.path.join(share_dir, 'resource')
-if resource_dir not in sys.path:
-    sys.path.append(resource_dir)
-
-# Replace the following import with the interface this node is using
 from dobot_interface.action import JointPTP
-from dobot_client import DobotDriver
-
-# You can import here any Python module you plan to use in this node
-import time
+from .dobot_client import DobotDriver
 
 class JointPTPNode(Node):
 
@@ -31,7 +19,7 @@ class JointPTPNode(Node):
         # Action servers are created using interface type, action name and multiple callback functions
         self.action_server = ActionServer(
             self,
-             JointPTP,
+            JointPTP,
             "set_joint_ptp",
             execute_callback=self.execute_callback,
             goal_callback=self.goal_callback,
@@ -77,6 +65,8 @@ class JointPTPNode(Node):
 
     # This function is called whenever cancel request is received
     def cancel_callback(self, goal):
+        dobot = DobotDriver()
+        dobot.stop_current_action()
         # Accept or reject a client request to cancel an action.
         self.get_logger().info("Received cancel request")
         return CancelResponse.ACCEPT
@@ -97,8 +87,8 @@ class JointPTPNode(Node):
         feedback_msg = JointPTP.Feedback()
         result = JointPTP.Result()
         
-        threshold_goal = 0.5 # Degrees
-        threshold_progress = 0.01 # Degrees
+        threshold_goal = 0.05 # Degrees
+        threshold_progress = 0.1 # Degrees
 
         prev_present = [None, None, None, None]
 
@@ -142,7 +132,7 @@ class JointPTPNode(Node):
             prev_present = [j1, j2, j3, j4]
             
             # rate.sleep() requires a multi-threaded executor or correct callback group handling but using time.sleep for simple nodes is fine
-            time.sleep(0.1)
+            rate.sleep()
 
         with self.goal_lock:
             if not goal_handle.is_active:

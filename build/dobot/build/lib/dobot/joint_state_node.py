@@ -1,17 +1,9 @@
 import rclpy
-import sys
-import os
 from rclpy.executors import ExternalShutdownException
 from rclpy.node import Node
 from sensor_msgs.msg import JointState
-from ament_index_python.packages import get_package_share_directory
 
-share_dir = get_package_share_directory('dobot')
-resource_dir = os.path.join(share_dir, 'resource')
-if resource_dir not in sys.path:
-    sys.path.append(resource_dir)
-
-from dobot_client import DobotDriver
+from .dobot_client import DobotDriver
 
 
 class JointStateAction(Node):
